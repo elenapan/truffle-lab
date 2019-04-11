@@ -25,4 +25,8 @@ contract MyContract {
     function upvotePost(uint _postId) public {
         posts[_postId].upvotes++;
     }
+
+    function getUpvotes(uint _postId) public view returns(uint) {
+        return posts[_postId].upvotes;
+    }
 }
