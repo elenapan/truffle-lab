@@ -21,7 +21,7 @@ sudo npm install -g truffle
 chmod +x Ganache-2.0.0.AppImage # Your version might be different
 ```
 
-- Create a new project directory, initialize truffle and install `truffle-hdwallet-provider`:
+- Create a new project directory, initialize an empty truffle project and install `truffle-hdwallet-provider`:
 
 ```shell
 mkdir my_truffle_project && cd my_truffle_project
@@ -55,7 +55,7 @@ var infura_endpoint = "https://ropsten.infura.io/v3/<YOUR INFURA PROJECT ID HERE
 # Deployment
 After following the instructions above, you should be ready to deploy your smart contract.
 
-Assuming that you have `cd`ed into your project directory:
+Assuming that you are inside your project directory:
 
 ### Deploying on Ganache
 - Launch Ganache:
